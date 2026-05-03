@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="referrer" content="strict-origin-when-cross-origin" />
-  <title>Be Yourself · Oposiciones Orientación Educativa Andalucía</title>
+  <title>Be Yourself · Oposiciones Educación Física Andalucía</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
@@ -452,6 +451,13 @@
     }
 
     .video-section .section-lead { color: rgba(255,255,255,0.88); }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+      margin-top: 24px;
+    }
 
     .video-shell {
       position: relative;
@@ -1083,7 +1089,8 @@
       .hero-actions { flex-direction: row; flex-wrap: wrap; align-items: center; }
       .cards-grid,
       .programacion-grid,
-      .acomp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .acomp-grid,
+      .video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .acomp-grid .wide { grid-column: 1 / -1; }
       .footer-links { grid-template-columns: 1fr 1fr; }
     }
@@ -1130,15 +1137,15 @@
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <span class="eyebrow reveal">Oposiciones Orientación Educativa · Andalucía</span>
-            <h1 class="hero-title reveal">Una preparación para Orientación Educativa<br><em>como no la habías</em><br>visto antes.</h1>
-            <p class="hero-subtitle reveal">Estudia con un sistema claro, actualizado y pensado para llegar al examen con seguridad, criterio y una programación que suene a orientación real.</p>
+            <span class="eyebrow reveal">Oposiciones Educación Física · Andalucía</span>
+            <h1 class="hero-title reveal">Una preparación para Educación Física<br><em>como no la habías</em><br>visto antes.</h1>
+            <p class="hero-subtitle reveal">Estudia cuando quieras. Desde donde estés. A tu ritmo, con tu energía y adaptado a tu vida.</p>
 
             <div class="hero-badges reveal">
               <span class="hero-badge">✦ 100% Online</span>
-              <span class="hero-badge">⚡ Todo organizado</span>
-              <span class="hero-badge">📅 Ritmo flexible</span>
-              <span class="hero-badge">🎯 Orientación Educativa</span>
+              <span class="hero-badge">⚡ Todo en plataforma</span>
+              <span class="hero-badge">📅 Acceso flexible</span>
+              <span class="hero-badge">🎯 Adaptado a ti</span>
             </div>
 
             <div class="hero-actions reveal">
@@ -1149,21 +1156,21 @@
 
           <aside class="hero-panel reveal" aria-label="Resumen de la propuesta formativa">
             <div class="hero-panel-top">
-              <span class="hero-panel-kicker">Así se siente preparar Orientación</span>
+              <span class="hero-panel-kicker">Así se siente la preparación</span>
               <div class="hero-panel-dots" aria-hidden="true"><span></span><span></span><span></span></div>
             </div>
             <div class="hero-stack">
               <div class="mini-card">
                 <strong>Temario actualizado y listo para estudiar.</strong>
-                <p>Entrar, estudiar y avanzar. Sin perder tardes reorganizando materiales.</p>
+                <p>Entrar y avanzar. Sin reorganizar materiales. Sin perder foco.</p>
               </div>
               <div class="mini-card">
-                <strong>Casos prácticos de Orientación Educativa.</strong>
-                <p>Intervención, análisis, normativa y toma de decisiones con mirada de orientador.</p>
+                <strong>Supuestos prácticos todas las semanas.</strong>
+                <p>Más seguridad, más soltura, más profundidad cuando llegue el examen.</p>
               </div>
               <div class="mini-card">
                 <strong>Acompañamiento real de principio a fin.</strong>
-                <p>Técnicas de estudio, defensa oral, programación, casos, IA y formatos que encajan contigo.</p>
+                <p>Técnicas de estudio, apoyo emocional, IA y formatos que encajan contigo.</p>
               </div>
             </div>
           </aside>
@@ -1174,32 +1181,58 @@
         <div class="container">
           <div class="section-card">
             <header class="section-header">
-              <span class="eyebrow reveal">Deja que nos presentemos</span>
-              <h2 class="section-title reveal">Una conversación que lo cambia todo</h2>
-              <p class="section-lead reveal">Antes de hablar de temas, casos y programación, queremos contarte cómo entendemos esta preparación.</p>
+              <span class="eyebrow reveal">Conoce la academia</span>
+              <h2 class="section-title reveal">Dos vídeos para saber si este es tu sitio</h2>
+              <p class="section-lead reveal">Primero te cuento quién soy. Después, cómo vamos a enfocar el año de preparación.</p>
             </header>
 
-            <div class="video-shell reveal">
-              <div class="video-topbar">
-                <span class="video-pill">Presentación Be Yourself</span>
-                <div class="video-window-actions" aria-hidden="true"><span></span><span></span><span></span></div>
-              </div>
+            <div class="video-grid">
+              <div class="video-shell reveal">
+                <div class="video-topbar">
+                  <span class="video-pill">Presentación Be Yourself</span>
+                  <div class="video-window-actions" aria-hidden="true"><span></span><span></span><span></span></div>
+                </div>
 
-              <div class="video-embed">
-                <div class="video-placeholder">
-                  <div class="video-placeholder-inner">
-                    <div class="play-badge">▶</div>
-                    <strong>Vídeo de presentación</strong>
-                    <p>Ábrelo en una ventana completa y míralo cómodamente desde el móvil.</p>
-                    <button class="video-open-btn" id="open-video-modal" type="button">Ver vídeo</button>
+                <div class="video-embed">
+                  <div class="video-placeholder">
+                    <div class="video-placeholder-inner">
+                      <div class="play-badge">▶</div>
+                      <strong>Déjame que me presente</strong>
+                      <p>Unos minutos que lo cambian todo.</p>
+                      <button class="video-open-btn" type="button" data-video-url="https://drive.google.com/file/d/1o9LgePkybUbi1AdSrfHDY2E401FHD1dL/preview" data-video-title="Déjame que me presente">Ver vídeo</button>
+                    </div>
                   </div>
+                </div>
+
+                <div class="video-bottom" aria-hidden="true">
+                  <div class="video-control">⏮</div>
+                  <div class="video-control main">▶</div>
+                  <div class="video-control">⏭</div>
                 </div>
               </div>
 
-              <div class="video-bottom" aria-hidden="true">
-                <div class="video-control">⏮</div>
-                <div class="video-control main">▶</div>
-                <div class="video-control">⏭</div>
+              <div class="video-shell reveal">
+                <div class="video-topbar">
+                  <span class="video-pill">Enfoque del año</span>
+                  <div class="video-window-actions" aria-hidden="true"><span></span><span></span><span></span></div>
+                </div>
+
+                <div class="video-embed">
+                  <div class="video-placeholder">
+                    <div class="video-placeholder-inner">
+                      <div class="play-badge">▶</div>
+                      <strong>¿Me dejas contarte por qué yo y cómo vamos a enfocar el año?</strong>
+                      <p>Un vídeo para entender la metodología, el acompañamiento y la forma de trabajar durante el curso.</p>
+                      <button class="video-open-btn" type="button" data-video-url="https://drive.google.com/file/d/1j0BU1BJ5tazE-BISfX1phthNKq1LUhxF/preview" data-video-title="Cómo vamos a enfocar el año">Ver vídeo</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="video-bottom" aria-hidden="true">
+                  <div class="video-control">⏮</div>
+                  <div class="video-control main">▶</div>
+                  <div class="video-control">⏭</div>
+                </div>
               </div>
             </div>
           </div>
@@ -1210,31 +1243,26 @@
         <div class="container">
           <div class="section-card">
             <header class="section-header">
-              <span class="eyebrow reveal">Temario, normativa y materiales</span>
-              <h2 class="section-title reveal">Y ahora sí,<br>¿qué materiales tendrás?</h2>
-              <p class="section-lead reveal">Todo listo para estudiar Orientación Educativa en Andalucía. Sin perder tiempo reorganizando nada. Solo tú, el temario, los casos y el camino hacia la plaza.</p>
+              <span class="eyebrow reveal">Temario y materiales</span>
+              <h2 class="section-title reveal">Y ahora sí,<br>¿qué materiales tendremos?</h2>
+              <p class="section-lead reveal">Todo listo para estudiar. Sin perder tiempo reorganizando nada. Solo tú y el camino hacia la plaza.</p>
             </header>
 
             <div class="cards-grid">
               <article class="info-card reveal">
                 <div class="info-icon">📚</div>
                 <h3>Temas escritos completos</h3>
-                <p>Actualizados, estructurados y pensados para escribir con profundidad sin perder claridad ni tiempo.</p>
-              </article>
-              <article class="info-card reveal">
-                <div class="info-icon">🗂️</div>
-                <h3>Esquemas, pizarras y repasos</h3>
-                <p>Para comprender la normativa, ordenar los bloques y convertir el repaso en algo mucho más visual y manejable.</p>
-              </article>
-              <article class="info-card reveal">
-                <div class="info-icon">⚖️</div>
-                <h3>Casos prácticos de orientación</h3>
-                <p>Entrenamos la mirada profesional: análisis del contexto, detección de necesidades, propuestas de intervención y justificación normativa.</p>
+                <p>Actualizados, estructurados y listos para estudiar desde el primer día. Nada te distrae del objetivo. Además ofrecemos resumen/esquema, técnicas de estudio y simulacros trimestrales.</p>
               </article>
               <article class="info-card reveal">
                 <div class="info-icon">🔄</div>
-                <h3>Siempre actualizado</h3>
-                <p>La preparación se ajusta a lo que hoy se exige en Andalucía. Sin sorpresas. Sin material obsoleto.</p>
+                <h3>Legislación actualizada</h3>
+                <p>Actualización constante en normativa vigente, siempre al día en legislación educativa con un seguimiento continuo de cambios normativos.</p>
+              </article>
+              <article class="info-card reveal">
+                <div class="info-icon">⚖️</div>
+                <h3>Supuestos prácticos</h3>
+                <p>Resolución semanal de supuestos prácticos, trabajado paso a paso y en base a indicadores de evaluación.</p>
               </article>
             </div>
 
@@ -1242,7 +1270,7 @@
               <h3>Entras en un sistema ya pulido y pensado para avanzar de verdad:</h3>
               <ul class="feature-list">
                 <li><span>✓</span>Plataforma online, sin instalaciones, desde cualquier dispositivo</li>
-                <li><span>✓</span>Materiales organizados por bloques, normativa y avance progresivo</li>
+                <li><span>✓</span>Materiales organizados por bloques y avance progresivo</li>
                 <li><span>✓</span>Prácticas guiadas integradas en la semana de estudio</li>
               </ul>
             </div>
@@ -1254,32 +1282,32 @@
         <div class="container">
           <div class="section-card">
             <header class="section-header">
-              <span class="eyebrow reveal">Programación y defensa</span>
-              <h2 class="section-title reveal">¿Y si tu programación<br>dejara de sonar genérica?</h2>
-              <p class="section-lead reveal">Aquí no se trata de rellenar apartados. Se trata de construir una programación con sentido, conectada con la realidad de los centros, la acción tutorial, la atención a la diversidad, la convivencia y la orientación académica y profesional.</p>
+              <span class="eyebrow reveal">Programación didáctica</span>
+              <h2 class="section-title reveal">¿Y si elaborar tu programación<br>no tuviera que ser duro?</h2>
+              <p class="section-lead reveal">Aquí no se memoriza por memorizar. Se comprende, y así se fija de verdad. Situaciones de aprendizaje actuales, metodologías inclusivas e innovadoras, conectadas desde la raíz con la especialidad de EF.</p>
             </header>
 
             <div class="programacion-grid">
               <article class="programacion-card reveal">
                 <div class="programacion-icon">📐</div>
-                <strong>Los ámbitos de la orientación</strong>
-                <p>Organizas la intervención desde una mirada profesional, coherente y conectada con las necesidades reales del centro.</p>
-              </article>
-              <article class="programacion-card reveal">
-                <div class="programacion-icon">🎨</div>
-                <strong>Actuaciones con identidad propia</strong>
-                <p>Diseñamos propuestas que no parezcan una plantilla: realistas, defendibles y con valor añadido ante el tribunal.</p>
+                <strong>Programación didáctica</strong>
+                <p>Elaboración progresiva de la programación didáctica, de forma personalizada y con asesoramiento individual en cada apartado.</p>
               </article>
               <article class="programacion-card reveal">
                 <div class="programacion-icon">🧩</div>
-                <strong>Defensa oral con sentido</strong>
-                <p>No expones un documento de memoria: aprendes a defender decisiones, justificar la intervención y conectar cada parte con criterio.</p>
+                <strong>Situaciones de Aprendizaje</strong>
+                <p>Diseño gradual de situaciones de aprendizaje, con un gran abanico de recursos y apoyo en una plantilla visual atractiva.</p>
+              </article>
+              <article class="programacion-card reveal">
+                <div class="programacion-icon">🎨</div>
+                <strong>Producto Final</strong>
+                <p>Creación de productos finales atractivos y coherentes, diseñados para conectar con el tribunal y poner en valor tu trabajo.</p>
               </article>
             </div>
 
             <div class="highlight-band reveal">
               <strong>⚡ No ofrecemos una preparación genérica ni anticuada.</strong>
-              <p>Cada recurso está pensado para lo que hoy se exige en Orientación Educativa y alineado con lo que el tribunal necesita ver.</p>
+              <p>Cada recurso está pensado para lo que hoy se exige y alineado con lo que el tribunal quiere ver.</p>
             </div>
           </div>
         </div>
@@ -1290,41 +1318,41 @@
           <div class="section-card">
             <header class="section-header">
               <span class="eyebrow reveal">Acompañamiento real</span>
-              <h2 class="section-title reveal">No te dejamos<br>en ningún momento.</h2>
-              <p class="section-lead reveal">Preparar Orientación Educativa es ilusionante, pero también exigente. Por eso aquí no solo tienes contenido. Tienes acompañamiento, estrategia y una forma de estudiar que te ayuda a sostener el proceso.</p>
+              <h2 class="section-title reveal">No te dejamos solo/a<br>en ningún momento.</h2>
+              <p class="section-lead reveal">Un reto de los más ilusionantes, pero también de los más duros. Por eso aquí no solo tienes contenido. Tienes a alguien que te coge de la mano y no te suelta durante toda esta montaña rusa.</p>
             </header>
 
             <div class="acomp-grid">
               <article class="acomp-card reveal">
                 <div class="info-icon">🧠</div>
                 <strong>Técnicas de estudio</strong>
-                <p>Para estudiar muchas páginas con método, priorizar lo importante y no perder la cabeza ni la motivación.</p>
+                <p>Para guiarte en el aprendizaje de tantísimas páginas sin perder la cabeza ni la motivación.</p>
               </article>
               <article class="acomp-card reveal">
                 <div class="info-icon">💛</div>
                 <strong>Acompañamiento emocional</strong>
-                <p>Para cuando te fallen las fuerzas, entiendas qué está pasando y recibas ese empujoncito extra justo cuando lo necesitas.</p>
+                <p>Para cuando te fallen las fuerzas, entiendas los motivos y recibas ese empujoncito extra justo cuando lo necesitas.</p>
               </article>
               <article class="acomp-card reveal">
                 <div class="info-icon">🎬</div>
                 <strong>Múltiples formatos</strong>
-                <p>Vídeos, presentaciones visuales, podcast, esquemas y materiales de repaso. Aprendes como tú aprendes, no como te imponemos.</p>
+                <p>Vídeos, presentaciones visuales, podcast, esquemas. Aprendes como tú aprendes, no como te imponemos.</p>
               </article>
               <article class="acomp-card reveal">
                 <div class="info-icon">🤖</div>
                 <strong>Inteligencia Artificial</strong>
-                <p>Usamos IA como herramienta real de apoyo durante la oposición: estudio, planificación, simulacros, casos y mejora de materiales.</p>
+                <p>Usamos IA como herramienta real de apoyo durante la oposición. No como moda, sino como ventaja.</p>
               </article>
               <article class="acomp-card wide reveal">
                 <div class="info-icon">🔁</div>
                 <strong>Resolución de dudas y repaso constante</strong>
-                <p>Repasamos, y repasamos, y repasamos. Con métodos que ayudan a que la normativa, los temas y la práctica se queden.</p>
+                <p>Repasamos, y repasamos, y repasamos. Con métodos disruptivos que hacen que lo que aprendes se quede.</p>
               </article>
             </div>
 
             <div class="quote-panel reveal">
               <p>"Aquí no eres un número más.<br>Eres el centro del proceso."</p>
-              <span>Academia Be Yourself · Orientación Educativa</span>
+              <span>Academia Be Yourself · Formación de Oposiciones</span>
             </div>
           </div>
         </div>
@@ -1341,7 +1369,7 @@
             <div class="download-card reveal">
               <div class="download-icon">📄</div>
               <h3>Tema de muestra gratuito</h3>
-              <p>Hazte una buena, buenísima idea de cómo trabajamos cada tema de Orientación Educativa. Sin compromiso. Solo calidad.</p>
+              <p>Hazte una buena, buenísima idea de qué tenemos preparado para cada tema. Sin compromiso. Solo calidad.</p>
 
               <!--
                 ════════════════════════════════════════════════════
@@ -1349,7 +1377,7 @@
                 Ejemplo: href="https://drive.google.com/file/d/TU_FILE_ID/view"
                 ════════════════════════════════════════════════════
               -->
-              <a href="https://drive.google.com/file/d/1Wz8oChxNA4q-aL6jgti7p9utOAbEaXvU/view?usp=sharing" class="btn btn-primary" target="_blank" rel="noopener">⬇ Descargar tema de muestra</a>
+              <a href="https://drive.google.com/file/d/1UMiVrivcU2DyJmxD-LKzLRcnj3XRdZyp/view?usp=sharing" class="btn btn-primary" target="_blank" rel="noopener">⬇ Descargar tema de muestra</a>
 
               <div class="microcopy">Gratis · Sin registro · Directamente al grano</div>
             </div>
@@ -1360,9 +1388,9 @@
       <section class="cta-section">
         <div class="container">
           <div class="cta-panel">
-            <span class="eyebrow reveal">¿Quieres dar el siguiente paso?</span>
+            <span class="eyebrow reveal">¿Listo/a para dar el siguiente paso?</span>
             <h2 class="cta-title reveal">Tu plaza empieza<br><span>aquí.</span></h2>
-            <p class="cta-sub reveal">No esperes a tenerlo todo claro. Contacta y te contamos cómo es la preparación de Orientación Educativa, sin compromiso y sin letra pequeña.</p>
+            <p class="cta-sub reveal">No esperes a tenerlo todo claro. Solo contacta. Te contamos todo sin compromiso y sin letra pequeña.</p>
             <div class="reveal">
               <a href="#footer" class="btn btn-accent">Solicitar información →</a>
             </div>
@@ -1378,7 +1406,7 @@
             <span class="brand-mark" aria-hidden="true"></span>
             <div class="brand-text">Be <span>Yourself</span></div>
           </div>
-          <div class="footer-tag">Formación de Oposiciones · Orientación Educativa · 100% Online</div>
+          <div class="footer-tag">Formación de Oposiciones · 100% Online</div>
 
           <div class="footer-links">
             <a class="footer-link" href="https://formacionbeyourself.es/" target="_blank" rel="noopener">🌐 formacionbeyourself.es</a>
@@ -1414,23 +1442,9 @@
       });
     }
 
-    const youtubeVideoId = '1oYm_nnN6D8';
-    const youtubeParams = new URLSearchParams({
-      si: '94_1YXQpuBGVHJff',
-      autoplay: '1',
-      rel: '0',
-      modestbranding: '1',
-      playsinline: '1'
-    });
+    const openVideoBtns = document.querySelectorAll('.video-open-btn[data-video-url]');
 
-    if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
-      youtubeParams.set('origin', window.location.origin);
-    }
-
-    const videoUrl = `https://www.youtube-nocookie.com/embed/${youtubeVideoId}?${youtubeParams.toString()}`;
-    const openVideoBtn = document.getElementById('open-video-modal');
-
-    if (openVideoBtn) {
+    if (openVideoBtns.length) {
       const modal = document.createElement('div');
       modal.className = 'video-modal';
       modal.id = 'video-modal';
@@ -1438,7 +1452,7 @@
         <div class="video-modal-dialog" role="dialog" aria-modal="true" aria-label="Vídeo de presentación">
           <button class="video-modal-close" type="button" aria-label="Cerrar vídeo">×</button>
           <div class="video-modal-frame">
-            <iframe src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="" allow="autoplay; fullscreen" allowfullscreen title="Presentación Be Yourself Educación Física"></iframe>
           </div>
         </div>
       `;
@@ -1447,8 +1461,9 @@
       const iframe = modal.querySelector('iframe');
       const closeBtn = modal.querySelector('.video-modal-close');
 
-      const openModal = () => {
-        iframe.src = videoUrl;
+      const openModal = (url, title) => {
+        iframe.src = url;
+        iframe.title = title || 'Presentación Be Yourself Educación Física';
         modal.classList.add('is-open');
         document.body.style.overflow = 'hidden';
       };
@@ -1459,7 +1474,9 @@
         document.body.style.overflow = '';
       };
 
-      openVideoBtn.addEventListener('click', openModal);
+      openVideoBtns.forEach((btn) => {
+        btn.addEventListener('click', () => openModal(btn.dataset.videoUrl, btn.dataset.videoTitle));
+      });
       closeBtn.addEventListener('click', closeModal);
       modal.addEventListener('click', (e) => {
         if (e.target === modal) closeModal();
